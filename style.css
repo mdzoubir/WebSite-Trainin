@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.img {
+    height: 250px;
+    border-radius: 100px;
+    border: 8px solid #7749C1;
+    transition: 0.7s;
+    margin: 40px 161px;
+
+
+
+}
+
+
+
+/* .img:hover {
+    height: 280px;
+    border: none;
+
+
+} */
+
+.nq {
+    color: #7749C1;
+    font-family: monospace;
+    font-size: 34px;
+    text-align: center;
+    margin-right: 20px;
+
+
+}
+
+.nc {
+    margin-top: 50px;
+}
+
+.logo {
+    height: 200px;
+    margin: 40px 69px;
+}
+
+.logoa {
+    height: 250px;
+
+
+
+}
+
+.logod {
+    height: 170px;
+    padding-bottom: 30px;
+
+}
