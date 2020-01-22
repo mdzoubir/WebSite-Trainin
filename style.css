@@ -1,0 +1,95 @@
+body{
+    font-size: 18px;
+    height:100;
+    background: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: auto;
+}
+.partie1{
+    margin: 80px;
+}
+.logo{
+    width: 120px;
+    
+}
+.img1{
+    width: 120px;
+}
+.img2{
+    width: 120px;
+}
+.separ1{
+display: flex;
+ 
+}
+nav{
+    padding-left: 5rem;
+    margin-top: 20px;
+    margin-left: 380px; 
+}
+.a{
+    padding-left: 1.6rem;
+    text-decoration: transparent;
+    text-align: center;
+    
+}
+a:hover{
+    background-color: #7749c1;
+    border-radius: 1em;
+    font-style: italic;
+    color: white;
+}
+a.a{
+    padding: 0.5em;
+}
+h1{
+
+    font-size: 2em;
+  }
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    font: fantasy;
+}
+.SAMIRA{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(45deg,#7749c1, #9b59b6, #3498db);
+    border-radius: 3em 0.5em;
+    margin-top: 3em;
+    padding: 1em;
+    font-size: 100%;
+    background-size: 800px;
+    background-position: right;
+    color: white;
+}
+.SAMIRA{
+    animation:hover 2s infinite;
+}
+@keyframes hover {
+    0% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
+}
+.contenue{
+    background-image:url(/img/background.png);
+}
+.back{
+    width: 510px;
+    height: 300px;
+    margin-right: 10px;
+    opacity: 0.8;
+    border-radius: 5%;
+    
+}
+.separ2{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.right{
+    margin-left: 93px;
+}
