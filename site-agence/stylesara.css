@@ -1,0 +1,40 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.sara {
+    display: flex;
+    padding: 2% 10%;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(45deg, #7749C1, #9b59b6, #3498db, #3742fa);
+    background-size: 800px;
+    background-position: right;
+    margin-top: 10px;
+}
+
+.btn {
+    animation: hover 5s infinite;
+}
+
+@keyframes hover {
+    0% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
