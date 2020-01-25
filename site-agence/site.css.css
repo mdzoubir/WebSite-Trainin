@@ -1,19 +1,30 @@
-body {
-    width: 90%;
-    margin: 0 auto;
+h1 {
+    text-align: center;
+    font-size: 70;
+    background-color: #7749C1;
+    color: white;
+    border-radius: 5px;
 }
 
-.img {
+.photo {
     width: 200px;
     height: 200px;
+    border-radius: 10%;
+    transition: width 2s, height 2s, transform 2s;
+    transition-timing-function: ease-in-out;
 }
 
-.sara {
+.photo:hover {
+    width: 40%;
+    transform: rotate(360deg);
+}
+
+.service {
     display: flex;
-    padding: 2% 10%;
     text-align: center;
+    padding: 2%;
+    line-height: 40px;
 }
-
 .btn {
     padding: 10px 20px;
     border: none;
@@ -25,7 +36,6 @@ body {
     background-position: right;
     margin-top: 10px;
 }
-
 .btn {
     animation: hover 5s infinite;
 }
@@ -37,4 +47,10 @@ body {
     100% {
         background-position: left;
     }
+}
+.para{
+    margin: 5%;
+}
+.para:hover{
+    background-color:plum;
 }
