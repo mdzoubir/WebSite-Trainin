@@ -3,13 +3,20 @@ body {
     width: 90%;
 }
 
-img {
-    width: 200px;
-    margin: 0px 43%;
+.zoubir {
+    width: 250px;
+    margin: 0px 36%;
+    background-image: url(/img/back.png);
     border-radius: 8px;
+    position: absolute;
+    filter: grayscale(0%);
 }
 
-h1 {
+.zoubir:hover {
+    filter: grayscale(100%);
+}
+
+.hd {
     text-align: center;
     text-decoration: underline;
 }
@@ -21,23 +28,24 @@ h1 {
     padding-bottom: 20px;
 }
 
-ul {
+.ull {
     padding: 0;
 }
 
 .lorem {
     width: 50%;
     text-align: center;
-    margin: 0 auto;
+    margin: 200px auto 0px auto;
 }
 
-li {
+.sup {
     list-style: none;
 }
 
 .flex {
     display: flex;
     justify-content: center;
+    margin: -20px;
 }
 
 .Basic {
