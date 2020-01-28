@@ -10,21 +10,22 @@ h1 {
     width: 200px;
     height: 200px;
     border-radius: 10%;
-    transition: width 2s, height 2s, transform 2s;
-    transition-timing-function: ease-in-out;
+    transition-property: width, height;
 }
 
 .photo:hover {
-    width: 40%;
-    transform: rotate(360deg);
+    width: 300px;
+    height: 300px;
+
 }
 
 .service {
     display: flex;
     text-align: center;
-    padding: 2%;
-    line-height: 40px;
+    padding: %;
+    line-height: 30px;
 }
+
 .btn {
     padding: 10px 20px;
     border: none;
@@ -36,6 +37,7 @@ h1 {
     background-position: right;
     margin-top: 10px;
 }
+
 .btn {
     animation: hover 5s infinite;
 }
@@ -44,13 +46,71 @@ h1 {
     0% {
         background-position: right;
     }
+
     100% {
         background-position: left;
     }
 }
-.para{
+
+.para {
     margin: 5%;
 }
-.para:hover{
-    background-color:plum;
+
+.para:hover {
+    background-color: plum;
 }
+
+@media(max-width:500px) {
+    .service {
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "para1"
+            "para2"
+            "para3"
+            "para4"
+            "para5"
+            "para6";
+    }
+
+    .para1 {
+        grid-area: para1;
+    }
+
+    .para2 {
+        grid-area: para2;
+    }
+
+    .para3 {
+        grid-area: para3;
+    }
+
+    .para4 {
+        grid-area: para4;
+    }
+
+    .para5 {
+        grid-area: para5;
+    }
+
+    .para6 {
+        grid-area: para6;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 13px;
+    }
+
+    .photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .para1 {
+        grid-area: para1;
+    }
