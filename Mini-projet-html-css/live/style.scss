@@ -1,0 +1,49 @@
+@mixin grid($img, $text) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: " #{$img}  #{$text}";
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+body {
+    width: 80%;
+    margin: 30px auto;
+}
+
+img {
+    height: 300px;
+}
+
+.part1 {
+    @include grid(text1, img1);
+    .img1 {
+        grid-area: img1;
+    }
+    .text1 {
+        grid-area: text1;
+    }
+}
+
+.part2 {
+    @include grid(img2, text2);
+    .img2 {
+        grid-area: img2;
+    }
+    .text2 {
+        grid-area: text2;
+    }
+}
+
+.part3 {
+    @include grid(text3, img3);
+    .img3 {
+        grid-area: img3;
+    }
+    .text3 {
+        grid-area: text3;
+    }
+}

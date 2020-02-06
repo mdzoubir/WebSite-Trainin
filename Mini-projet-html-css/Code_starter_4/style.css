@@ -1,0 +1,392 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0px;
+}
+
+.img {
+    width: 80px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    margin-top: -1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
+
+.img2 {
+    padding-top: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+    font-weight: 600px;
+}
+
+.para1 {
+    text-align: center;
+}
+
+.your-email {
+    border-color: black;
+    border: 1px solid #000000;
+    padding: 10px 70px 10px 10px;
+    border-radius: 3px;
+    margin: 20px 60px;
+}
+
+.Get {
+    padding: 10px 85px 10px 85px;
+    border-radius: 3px;
+    margin: -10px 60px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+}
+
+.Gete {
+    padding: 10px 63px 10px 63px;
+    border-radius: 3px;
+    margin: -10px 60px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+.div3 {
+    background-color: hsl(240, 75%, 98%);
+    margin-top: 20px;
+    padding: 0px;
+}
+
+p {
+    padding: 10px;
+}
+
+.img3 {
+    padding: 0;
+    width: 100%;
+}
+
+.img4 {
+    padding: 20px 0px 0px 0;
+    width: 100%;
+    background-color: white;
+}
+
+.div3 a {
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%);
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+
+.coment {
+    box-shadow: 0 4px 4px 0 #D2D2D2;
+    border-radius: 8px;
+    width: 65%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.grid {
+    display: flex;
+}
+
+.img5 {
+    padding: 0%;
+    margin: 0%;
+    border-radius: 100%;
+    width: 30%;
+}
+
+.com {
+    padding: 0%;
+    margin: 0%;
+}
+
+.comi {
+    margin-left: -80px;
+    margin-top: 5px;
+}
+
+.footer h3 {
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding: 20px 10px 50px 10px;
+}
+
+.imge {
+    padding: 20px 20px;
+}
+
+.fylo {
+    background-color: hsl(243, 87%, 12%);
+}
+
+.photo {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.fa-phone {
+    color: white;
+    transform: rotate(90deg);
+}
+
+.font-awesome {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 1fr;
+    grid-template-areas: "A    B";
+}
+
+.fylo p {
+    color: white;
+}
+
+.fs {
+    grid-area: A;
+    padding-top: 28%;
+    padding-left: 60%;
+}
+
+.rs {
+    grid-area: B;
+}
+
+.font-awesome .rs p {
+    margin-left: -5%;
+}
+
+.fa-envelope-open-text {
+    color: white;
+    padding-top: 115%;
+}
+
+.email {
+    padding-top: 17%;
+}
+
+.p-fot {
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+.p-goin {
+    padding-top: 1%;
+}
+
+.fab {
+    color: white;
+    font-size: 200%;
+}
+
+.icons {
+    margin-left: 36%;
+    padding-bottom: 10%;
+}
+
+
+/* ---------------------1440--------------------- */
+
+@media screen and (min-width: 1440px) {
+    .img {
+        width: 100%;
+        padding: -20px;
+    }
+    .list {
+        padding-left: 20px;
+    }
+    .flex {
+        padding: 20px;
+    }
+    .img2 {
+        padding-top: 0px;
+        width: 80%;
+        padding-left: 100px;
+    }
+    .min {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .D {
+        padding-left: 40px;
+        padding-top: 60px;
+    }
+    h1 {
+        text-align: start;
+    }
+    .para1 {
+        text-align: start;
+    }
+    .your-email {
+        margin: 20px 10px;
+    }
+    .Get {
+        margin: -10px 10px;
+    }
+    .Gete {
+        padding: 10px 30px 10px 30px;
+        margin: -10px 10px;
+    }
+    h4 {
+        text-align: start;
+        padding-left: 15px;
+    }
+    .max {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    p {
+        padding: 5px 10px;
+    }
+    .img3 {
+        padding-top: 0px;
+        width: 80%;
+        padding-left: 100px;
+    }
+    .AZE {
+        padding-left: 30px;
+    }
+    .img4 {
+        height: 60px;
+    }
+    .div3 a {
+        margin-left: 10px;
+    }
+    .coment {
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .flex12 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .new {
+        width: 40%;
+        margin-left: -100px;
+    }
+    .your {
+        padding: 10px 150px 10px 10px;
+        margin: 20px 10px;
+    }
+    .grid {
+        display: flex;
+    }
+    .img5 {
+        padding: 0%;
+        margin: 0%;
+        border-radius: 100%;
+        width: 30%;
+    }
+    .com {
+        padding: 0%;
+        margin: 0%;
+    }
+    .comi {
+        margin-left: -80px;
+        margin-top: 5px;
+    }
+    .footer h3 {
+        text-align: start;
+        padding-left: 10px;
+    }
+    .footer p {
+        text-align: start;
+    }
+    .footer {
+        padding: 20px 0px 50px 0px;
+    }
+    .imge {
+        padding: 20px 20px;
+    }
+    .fylo {
+        background-color: hsl(243, 87%, 12%);
+        padding: 0;
+    }
+    .photo {
+        width: 20%;
+        padding-top: 80px;
+        padding-left: 70px;
+    }
+    .fa-phone {
+        color: white;
+        transform: rotate(90deg);
+        margin: ;
+    }
+    .font-awesome {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 1fr;
+        grid-template-areas: "A    B";
+        margin-left: 500px;
+    }
+    .fylo p {
+        color: white;
+    }
+    .fs {
+        grid-area: A;
+        padding-top: 28%;
+        padding-left: 60%;
+    }
+    .rs {
+        grid-area: B;
+    }
+    .font-awesome .rs p {
+        margin-left: -5%;
+    }
+    .fa-envelope-open-text {
+        color: white;
+        padding-top: 115%;
+    }
+    .email {
+        padding-top: 17%;
+    }
+    .p-fot {
+        padding-left: 10%;
+        padding-bottom: 3%;
+    }
+    .p-goin {
+        padding-top: 1%;
+    }
+    .fab {
+        color: white;
+        font-size: 200%;
+    }
+    .icons {
+        margin-left: 36%;
+        padding-bottom: 10%;
+    }
+}

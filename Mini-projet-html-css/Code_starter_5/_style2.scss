@@ -1,0 +1,43 @@
+#img img {
+    height: 300px;
+    background-color: $color4;
+}
+
+@mixin grid($text, $img) {
+    background-color: $color4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "#{$text}  #{$img}";
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.partie1 {
+    @include grid(text1, img1);
+    padding: 10px;
+    .img1 {
+        text-align: end;
+    }
+}
+
+.partie2 {
+    @include grid(img2, text2);
+    padding: 10px;
+    .text2 {
+        grid-area: text2;
+    }
+    .img2 {
+        grid-area: img2;
+    }
+}
+
+.partie3 {
+    @include grid(text3, img3);
+    padding: 10px;
+    .img3 {
+        text-align: end;
+    }
+}
