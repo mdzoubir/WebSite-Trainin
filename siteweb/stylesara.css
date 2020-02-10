@@ -1,0 +1,443 @@
+body {
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.partie1 {
+    margin: 80px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.img1 {
+    width: 120px;
+}
+
+.img2 {
+    width: 120px;
+}
+
+.separ1 {
+    display: flex;
+}
+
+.navi {
+    padding-left: 5rem;
+    font-size: 18px;
+    margin-top: 20px;
+    position: relative;
+    left: 520px;
+    margin-left: -200px;
+}
+
+.a {
+    padding-left: 1.6rem;
+    text-decoration: transparent;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #7749c1;
+    border-radius: 1em;
+    font-style: italic;
+    color: white;
+}
+
+a.a {
+    padding: 0.5em;
+}
+
+.pr {
+    font-size: 2em;
+}
+
+.pr2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font: fantasy;
+}
+
+.SAMIRA {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(45deg, #7749c1, #9b59b6, #3498db);
+    border-radius: 3em 0.5em;
+    margin-top: 3em;
+    padding: 1em;
+    font-size: 100%;
+    background-size: 800px;
+    background-position: right;
+    color: white;
+}
+
+.SAMIRA {
+    animation: hover 2s infinite;
+}
+
+@keyframes hover {
+    0% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
+
+.back {
+    border-radius: 8px;
+    margin-left: -320px;
+    width: 940px;
+    height: 300px;
+}
+
+.separ2 {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.left {
+    margin-right: 40px;
+    position: relative;
+    right: 60px;
+}
+
+.logo {
+    position: relative;
+    right: 60px;
+}
+
+
+/*----------------------------- sara -----------------------------*/
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.sara {
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: space-betwwen;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(45deg, #7749C1, #9b59b6, #3498db, #3742fa);
+    background-size: 800px;
+    background-position: right;
+    margin-top: 10px;
+}
+
+.btn {
+    animation: hover 5s infinite;
+}
+
+@keyframes hover {
+    0% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
+
+.sa {
+    background-color: #7749C1;
+    border-radius: 15px;
+    color: lavenderblush;
+    font-size: 50 px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 6px;
+}
+
+.abc {
+    padding: 2% 4%;
+}
+
+
+/*----------------------- moutaalim ---------------------------*/
+
+.tlt {
+    margin: 30px;
+}
+
+.rang1 h1 {
+    color: #731DB4;
+    margin-top: 30px;
+}
+
+.rang1 h3 {
+    margin-right: 175px
+}
+
+.rang1 p {
+    margin-top: 53px;
+}
+
+.bott {
+    height: 30px;
+    background-color: #731DB4;
+    border: #731DB4;
+    border-radius: 8px;
+    color: white;
+    text-shadow: #000;
+    padding: 20px 20px;
+}
+
+.bott:hover {
+    background-color: rgb(167, 96, 221);
+}
+
+.h3 {
+    color: #731DB4;
+    margin-right: 40px;
+}
+
+.group {
+    display: flex;
+    margin: 0 15% 0 0;
+    /* margin-right: -20px; */
+}
+
+.rang {
+    margin: 0;
+    padding: 0 10% 5% 10%;
+    width: 100px;
+    display: flex;
+    transition: 1s;
+}
+
+.rang:hover {
+    width: 130px;
+}
+
+.rang1 {
+    display: flex;
+}
+
+.rang1 img {
+    width: 40%;
+}
+
+.rang1 hr {
+    margin-top: 1px;
+    color: #731DB4;
+}
+
+.titre {
+    text-align: center;
+    margin: 2% 43%;
+    color: #731DB4;
+}
+
+.imga {
+    background-color: #e4e4e4;
+    border-radius: 2%;
+    height: 60%;
+}
+
+.bt {
+    position: relative;
+    bottom: 8px;
+}
+
+
+/*--------------------salah  --------------------*/
+
+.sala {
+    display: flex;
+}
+
+.container {
+    height: 250px;
+    border-radius: 100px;
+    border: 8px solid #7749C1;
+    transition: 0.7s;
+    margin: 40px 137px;
+    transition: 2s;
+}
+
+.container:hover {
+    height: 280px;
+    border: none;
+}
+
+.nq {
+    color: #7749C1;
+    font-family: monospace;
+    font-size: 34px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.nc {
+    margin-top: 50px;
+}
+
+.logoT {
+    height: 200px;
+    margin: 40px 50px;
+    transition: 2s;
+}
+
+.logoT:hover {
+    height: 280px;
+    border: none;
+}
+
+.logoa {
+    height: 250px;
+}
+
+.logod {
+    height: 170px;
+    padding-bottom: 30px;
+}
+
+
+/* ------------------------zoubir-------------------------- */
+
+.zoubir {
+    width: 250px;
+    margin: 0px 36%;
+    background-image: url(/img/back.png);
+    border-radius: 8px;
+    position: absolute;
+    filter: grayscale(0%);
+}
+
+.zoubir:hover {
+    filter: grayscale(100%);
+}
+
+.hd {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contre {
+    background-image: url(/img/back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.ull {
+    padding: 0;
+}
+
+.lorem {
+    width: 50%;
+    text-align: center;
+    margin: 200px auto 0px auto;
+}
+
+.sup {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+}
+
+.Basic {
+    margin: 20px 140px;
+    padding: 60px;
+    text-align: center;
+    background-color: #D5D5F9;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.Basic:hover {
+    background-color: rgba(119, 73, 193);
+    color: white;
+    padding: 70px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+    justify-content: flex-end;
+}
+
+
+/* -------------------------hammim-------------------------- */
+
+.ensemble {
+    font-size: 30px;
+    text-align: justifys;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.tt {
+    position: absolute;
+    left: 800px;
+    padding-bottom: 30px;
+    margin-top: -380px;
+}
+
+.tt input {
+    margin-bottom: 30px;
+}
+
+.Nom {
+    margin-bottom: 10px;
+    width: 380px;
+    height: 30px;
+}
+
+.Message {
+    padding-bottom: 140px;
+}
+
+.envoyer {
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(45deg, #7749c1, #9b59b6, #3498db, #3742fa);
+    border-radius: 3em 0.5em;
+    padding: 1em;
+    font-size: 100%;
+    background-size: 800px;
+    background-position: right;
+    animation: hover 2s infinite;
+    color: white;
+}
+
+@keyframes hover {
+    0% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
+
+.lien {
+    text-decoration: none;
+    color: white;
+}
+
+.contenu {
+    background-color: rgba(119, 73, 193);
+    padding: 35px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
